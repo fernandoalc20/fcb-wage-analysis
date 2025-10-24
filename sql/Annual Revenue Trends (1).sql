@@ -31,25 +31,7 @@ WHERE Volume > 0
 
 GROUP BY year, Commodity
 ORDER BY year DESC;
-
--- ============================================================================
--- WHAT THE RESULTS SHOW:
--- ============================================================================
--- 2024 (most recent full year):
---   - Oil: $68.7 billion (79% of revenue)
---   - Gas: $17.7 billion (21% of revenue)
---   - Total: $86.4 billion
---
--- 2015 (10 years ago):
---   - Oil: $40.8 billion
---   - Gas: $15.6 billion
---   - Total: $56.4 billion
---
--- KEY INSIGHT: Revenue grew from $56B (2015) to $86B (2024) = 53% growth
--- Oil revenue grew faster (+68%) than Gas revenue (+14%)
---
--- TREND: Both commodities dipped in 2020 (COVID) but recovered strong.
--- Oil production increased 68% over 10 years, driving most growth.
 --
 -- BUSINESS IMPACT: We're becoming more oil-dependent. Oil went from 72%
+
 -- of revenue (2015) to 79% (2024). Higher reward but higher risk.
