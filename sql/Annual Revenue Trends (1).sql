@@ -1,8 +1,7 @@
 -- Annual Revenue Trends by Commodity
--- ============================================================================
+
 -- Question: How has Oil and Gas revenue changed each year over 10 years?
 -- This shows growth trends and which commodity drives revenue each year
--- ============================================================================
 
 SELECT 
   -- Extract the year from the production date
@@ -31,7 +30,6 @@ WHERE Volume > 0
 
 GROUP BY year, Commodity
 ORDER BY year DESC;
---
--- BUSINESS IMPACT: We're becoming more oil-dependent. Oil went from 72%
 
 -- of revenue (2015) to 79% (2024). Higher reward but higher risk.
+
